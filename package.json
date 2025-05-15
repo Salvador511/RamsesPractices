@@ -1,0 +1,17 @@
+{
+  "name": "nextjs-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "projects/*"
+  ],
+  "scripts": {
+    "dev:first-class": "npm run dev --workspace=first-class",
+    "build:first-class": "npm run build --workspace=first-class",
+    "start:first-class": "npm run start --workspace=first-class"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-next": "^15.0.3"
+  }
+}

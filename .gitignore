@@ -1,0 +1,27 @@
+# General
+/node_modules
+/.pnp
+.pnp.*
+.DS_Store
+*.pem
+
+# Next.js
+/projects/*/.next/
+/projects/*/out/
+/projects/*/build
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Env files
+/projects/*/.env*
+
+# Vercel
+/projects/*/.vercel
+
+# TypeScript
+/projects/*/*.tsbuildinfo
+/projects/*/next-env.d.ts
